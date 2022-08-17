@@ -2,6 +2,9 @@
 
 # All messages outputted by application
 class Messages
+  # I like these library of messages, they remind me a bit of internationalisation.
+  # If you've not seen that before, here's a library which makes managing lots of these types of
+  # messages easier https://github.com/ruby-i18n/i18n
   def welcome_message
     print "Welcome to Wordle.\n"
   end
